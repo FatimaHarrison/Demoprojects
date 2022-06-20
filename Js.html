@@ -9,52 +9,53 @@
   <body>
     <script type="text/javascript">
 
-      var userName = prompt("What's your name?");
-      var confirmCats = confirm("Do you like cats?");
+      var userName = prompt("Username");
+      var userName = prompt("Password");
+      
 
-      var petName = "Meeses";
-      var petType = "Tuxedo Cat";
-      var petAge = 5;
-      var petIsCat = true;
+      var petName = "Access";
+      var petType = "Has";
+      var petAge = 'Been';
+      var petIsCat = "Granted";
 
       if (confirmCats) {
         alert(petName + " " + petType + " " + petAge);
       }
       else {
-        alert("You don't get my cat's information");
+        alert("Access denied please try again.");
       }
 
-      if (petIsCat) {
-        alert("My pet is a cat");
+      if (Assignmentupdates) {
+        alert("Here are your new updates.");
       }
       else {
-        alert("My pet is not a cat");
+        alert("Foxtrat");
       }
 
       if (petAge !== 7) {
-        alert("My pet is not 7 years old");
+        alert("Tengo");
       }
 
       if (petAge === 5) {
-        alert("My pet is 5 years old");
+        alert("Eco");
       }
       else if (petAge < 5) {
-        alert("My pet is less than 5 years old");
+        alert("Delta");
       }
       else if (petAge > 5) {
-        alert("My pet is older than 5 years old");
+        alert("Whiskey");
       }
 
       // document.write() overwrites the entire page. We don't normally use this, but we will today for simplicity
       document.write("Welcome to our page " + userName);
 
-      var catAge = prompt("How old is your cat?");
+      var catAge = prompt("Please verify one of the updates to contuniue.");
 
       // Won't work as expected
-      alert(catAge + 2);
+      alert(catAge + sorrysomethingwhenwrong);
 
       // Works as expected
-      alert(parseInt(catAge) + 2);
+      alert(parseInt(catAge) + sorrysomthingwentwrong);
 
     </script>
   </body>
