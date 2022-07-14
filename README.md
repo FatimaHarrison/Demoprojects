@@ -1,1 +1,1 @@
-# Java-Script-
+# Demos of JS in HTML
